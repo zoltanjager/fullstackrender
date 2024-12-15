@@ -1,0 +1,28 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "VS code rest client",
+    "important": true
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "",
+    "important": true
+}
+
+###
+
+PUT http://localhost:3001/api/notes/9
+Content-Type: application/json
+
+{
+    "content": "",
+    "important": true,
+    "id": "9"
+
+}
